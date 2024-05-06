@@ -4,7 +4,7 @@ import BlogCard from "@/components/BlogCard";
 export default function Home() {
   return (
     <>
-    <p>anyNam</p>
+    <p>Bismillah</p>
     <BlogCard />
     </>
   );
