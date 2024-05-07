@@ -7,7 +7,6 @@ function BlogCard() {
     <div className="w-[588px] h-[555px] flex flex-col items-start rounded-[24px] p-6 border border-[#F0F1F3]">
         <Image src={CardImage} />
         <div className="">
-      <p>hellow</p>
         </div>
     </div>
   )
