@@ -1,15 +1,15 @@
 import Image from "next/image";
-import FacebookICon from "@/public/icons/facebook.png";
+import FacebookICon from "@/public/icons/facebook.svg";
 import PinterestICon from "@/public/icons/pinterest.png";
 import InstagramICon from "@/public/icons/instagram.png";
 
 function Footer() {
   return (
-    <footer className="max-w-[1440px] mx-auto px-[120px] py-[80px] bg-[#151A2D]">
+    <footer className="max-w-[1440px] mx-auto px-[120px] py-[80px] bg-background-fill-outermost">
       <div className="text-white flex justify-between items-start ">
         <div className="flex flex-col gap-3 w-[282px]">
           <h1 className="text-2xl font-medium">nODEStHEME</h1>
-          <p className="font-[14px] text-[#8791B7] leading-5">
+          <p className="font-[14px] text-typography-body-soft leading-5">
             How do you create compelling presentations that wow your colleagues
             and impress your managers?
           </p>

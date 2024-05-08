@@ -12,6 +12,19 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        'background-xsm': '0 2px 2px 2px rgba(0, 0, 0, 0.16)',
+        'background-sm': '0 8px 10px rgba(0, 0, 0, 0.06)',
+        'background-md': '0 16px 18px rgba(0, 0, 0, 0.06)',
+        'background-lg': '0 16px 18px rgba(0, 0, 0, 0.06)',
+        'background-xlg': '0 32px 36px rgba(0, 0, 0, 0.06)',
+        'background-xlg-3x': '0 64px 64px rgba(0, 0, 0, 0.06)',
+        'button-xsm': '0 2px 2px 2px rgba(0, 0, 0, 0.24)',
+        'button-sm': '0 8px 10px rgba(0, 0, 0, 0.06)',
+        'button-md': '0 16px 18px rgba(0, 0, 0, 0.06)',
+        'button-lg': '0 32px 36px rgba(0, 0, 0, 0.06)',
+        'badge-sm': '0 2px 2px rgba(0, 0, 0, 0.16)',
+      },
       colors: {
         'background-fill-central': 'var(--colors-nutral-white-white-main)',
         'background-fill-heart': 'var(--colors-nutral-white-white-main)',

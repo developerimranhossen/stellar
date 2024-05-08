@@ -61,6 +61,17 @@
         --colors-brand-secondary-secondary-700: #2c6358;
         --colors-brand-secondary-secondary-800: #224c43;
         --colors-brand-secondary-secondary-900: #0b231e;
+        --colors-brand-teritary-tertiary-100: #c1afdd;
+        --colors-brand-teritary-tertiary-200: #a58acd;
+        --colors-brand-teritary-tertiary-25: #faf6ff;
+        --colors-brand-teritary-tertiary-300: #9373c3;
+        --colors-brand-teritary-tertiary-400: #7850b4;
+        --colors-brand-teritary-tertiary-50: #d5c9e8;
+        --colors-brand-teritary-tertiary-500-main: #6d49a4;
+        --colors-brand-teritary-tertiary-600: #553980;
+        --colors-brand-teritary-tertiary-700: #422c63;
+        --colors-brand-teritary-tertiary-800: #32224c;
+        --colors-brand-teritary-tertiary-900: #1f0f39;
         --colors-feedback-negative-negative-100: #ffe2e0;
         --colors-feedback-negative-negative-200: #ffc6c2;
         --colors-feedback-negative-negative-25: #fff8f7;
@@ -96,4 +107,10 @@
         --colors-feedback-warning-warning-900: #5a3b00;
         
       }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --colors-nutral-white-white-main: #151a2d;
+  }
 }

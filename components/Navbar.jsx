@@ -32,8 +32,8 @@ function Navbar() {
           </li>
         </ul>
         <div className="flex items-center gap-6 leading-6">
-          <Link href="sign-in" className="text-[#D33C85] font-medium">Sign in</Link>
-          <Link href="sign-up" className="py-3 px-6 rounded-[8px] text-white bg-[#D33C85]">Sign up</Link>
+          <Link href="sign-in" className="text-component-text-primary font-medium">Sign in</Link>
+          <Link href="sign-up" className="py-3 px-6 rounded-[8px] text-white bg-component-fill-primary">Sign up</Link>
         </div>
       </div>
     </nav>
