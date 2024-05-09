@@ -25,8 +25,6 @@ function Blogpage() {
   </defs>
       </svg>
         <h1 className="text-xl">Blogs</h1>
-        <h1>[pgkdfpkgdfp[gkd[pfpgkdf[pgkdf[pgkfd[pgkdf[pgkfdpgkpogkdpdokfdpokgogkerpgrpgkfd;kgfd;lk;lvkd</h1>
-        <h1>[pgkdfpkgdfp[gkd[pfpgkdf[pgkdf[pgkfd[pgkdf[pgkfdpgkpogkdpdokfdpokgogkerpgrpgkfd;kgfd;lk;lvkd</h1>
   
       </div>
     </div>
