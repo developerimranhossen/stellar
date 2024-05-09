@@ -8,7 +8,7 @@ function Footer() {
             How do you create compelling presentations that wow your colleagues
             and impress your managers?
           </p>
-          <div className="flex justify-center items-start gap-4 ">
+          <div className="flex justify-start items-start gap-4 ">
             <div className="flex w-11 h-11 p-3 justify-center items-center gap-3 border border-component-stroke-dark-soft bg-component-fill-dark-soft rounded-lg ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
