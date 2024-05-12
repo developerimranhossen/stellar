@@ -1,9 +1,10 @@
 import BlogCard from "@/components/BlogCard";
+import SmallBlogCard from "@/components/SmallBlogCard";
 
 function Blogpage() {
   return (
     <>
-      <div className=" flex-col items-center gap-6 max-w-[1440px] border mx-auto ">
+      <div className="flex flex-col items-center gap-6 max-w-[1440px] mx-auto mt-[173px] ">
         <div className="flex w-[996px] flex-col items-center gap-3 mx-auto relative">
           <svg
             className="absolute top-[14px] w-[186.949px] h-[56.693px]"
@@ -88,7 +89,7 @@ function Blogpage() {
           </div>
         </form>
       </div>
-      <div className="max-w-[1440px] px-[120px] py-[80px] flex flex-col gap-8">
+      <div className="max-w-[1440px] px-[120px] py-[80px] flex flex-col gap-8 mx-auto">
         <div className="flex items-start gap-2">
           <h3 className="text-typography-heading text-center text-3xl font-medium leading-[52px]">
             New blog for you
@@ -98,6 +99,29 @@ function Blogpage() {
           </p>
         </div>
         <div className="flex flex-start gap-6">
+          <BlogCard />
+          <div className="flex flex-col justify-between items-start self-stretch gap-4">
+            <SmallBlogCard />
+            <SmallBlogCard />
+            <SmallBlogCard />
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1440px] px-[120px] py-[80px] flex flex-col gap-8 mx-auto">
+        <div className="flex items-start gap-2">
+          <h1 className="text-typography-heading text-center text-3xl font-medium leading-[52px]">
+            All Blog post
+          </h1>
+        </div>
+        <div className="grid grid-cols-3">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
           <BlogCard />
         </div>
       </div>
