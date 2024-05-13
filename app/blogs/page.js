@@ -1,5 +1,4 @@
-import BlogCard from "@/components/BlogCard";
-import SmallBlogCard from "@/components/SmallBlogCard";
+import BlogCard from "@/components/BlogCard"
 
 function Blogpage() {
   return (
@@ -99,11 +98,11 @@ function Blogpage() {
           </p>
         </div>
         <div className="flex flex-start gap-6">
-          <BlogCard />
+          <BlogCard bigCard={true} />
           <div className="flex flex-col justify-between items-start self-stretch gap-4">
-            <SmallBlogCard />
-            <SmallBlogCard />
-            <SmallBlogCard />
+            <BlogCard flexCard={true} />
+            <BlogCard flexCard={true} />
+            <BlogCard flexCard={true} />
           </div>
         </div>
       </div>
@@ -113,16 +112,16 @@ function Blogpage() {
             All Blog post
           </h1>
         </div>
-        <div className="grid grid-cols-3">
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+        <div className="grid grid-cols-3 gap-y-8">
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
+        <BlogCard smallCard={true} />
         </div>
       </div>
     </>
