@@ -1,4 +1,4 @@
-import BlogCard from "@/components/BlogCard"
+import BlogCard from "@/components/BlogCard";
 
 function Blogpage() {
   return (
@@ -113,15 +113,15 @@ function Blogpage() {
           </h1>
         </div>
         <div className="grid grid-cols-3 gap-y-8">
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
-        <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
+          <BlogCard smallCard={true} />
         </div>
       </div>
     </>

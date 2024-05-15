@@ -43,6 +43,7 @@ function BlogCard({ bigCard, smallCard, flexCard }) {
             Marketing
           </p>
         </div>
+        
       </div>
     </div>
   );
